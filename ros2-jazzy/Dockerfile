@@ -30,3 +30,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
     
 RUN echo "source /ros2_ws/install/setup.bash" >> ~/.bashrc
+RUN echo "export PS1=\"${ROS_DISTRO} > \"" >> ~/.bashrc 
