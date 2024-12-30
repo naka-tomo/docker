@@ -1,0 +1,1 @@
+docker run -it -v $HOME/catkin_ws:/catkin_ws --net=host  --name ros_noetic ros_noetic
