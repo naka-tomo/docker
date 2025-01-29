@@ -8,5 +8,5 @@
 ```
 cd /catkin_ws
 mkdir src
-catlin bnuild
+catkin_make
 ```
